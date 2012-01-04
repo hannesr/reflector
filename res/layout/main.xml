@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <ToggleButton
+    	android:id="@+id/onOffButton"
+    	android:text=""
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:layout_width="200dp">
+   	</ToggleButton>
+    <TextView
+    	android:id="@+id/statusView"
+    	android:textAppearance="?android:attr/textAppearanceMedium"
+    	android:text=""
+    	android:layout_height="100dp"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center_horizontal">
+   	</TextView>
+    <ListView
+    	android:id="@+id/deviceList"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content">
+   	</ListView>
+</LinearLayout>
