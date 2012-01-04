@@ -1,0 +1,9 @@
+build.properties
+project.properties
+.classpath
+.project
+.settings/*
+gen/*
+bin/*
+target/*
+*~
